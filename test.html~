@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <link rel="icon" type="image/png" href="images/bird.png" />
+    <script src="js/mongo.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/mongo.css">
+    <style>
+.center_align
+{
+text-align:center;
+}
+	body
+	{
+	background-color: rgb(0, 132, 180);
+	background-image: url("images/back.jpg"); background-repeat: no-repeat; background-size: 100%;
+
+	}
+	
+	table{border-radius: 30px; padding: 5px; width: 30xp; background-color: rgb(29, 202, 255)}
+	th, td{padding: 30px; border-radius: 30px; }
+	
+	.center_align
+	{
+	margin-top: 100px;
+	
+	text-align: center;
+	
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	
+	}
+	
+	h1
+	{
+	color: rgb(0, 132, 180);
+	}
+	#specific
+	{
+	color: rgb(0, 132, 180);
+	}
+
+	</style>
+
+    <title>Mongo Search</title>
+</head>
+
+<body>
+<div class="center_align">
+
+<img src="twitter_mongo.gif"> 
+    <h1>Mongo Search</h1> 
+    <span id="specific"> Enter query : </span>
+    <input id="search" type="text" onchange="search(1)" />
+    <input type="button" value="Get Tweets" onclick="search(1)" />
+    
+    </div>
+    <br/>
+    <br/>
+    <div id="result"></div>
+    <hr/>
+    <br/>
+    <div id="results"></div>
+    <br/><br/>
+    <div id="page">
+
+
+
+    </div>
+    <br/><br/>
+</body>
+
+</html>

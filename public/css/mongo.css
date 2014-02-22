@@ -1,0 +1,88 @@
+   .G {
+            color: blue;
+        }
+        .o {
+            color: red;
+        }
+        .oo {
+            color: "#FFA61D";
+        }
+        .Goog {
+            color: blue;
+        }
+        .l {
+            color: green;
+        }
+        .e {
+            color: red;
+        }
+        .user {
+            color: maroon;
+            display: inline;
+            font-weight:bold;
+
+        }
+        .tweet {
+            color: black;
+            display: inline;
+        }
+        .date {
+            color: #25383C;
+            font-size: 13px;
+            display: inline;
+        }
+
+ul{border:0; margin:0; padding:0;}
+
+#pagination-mongo li{
+border:0; margin:0; padding:0;
+font-size:12px;
+list-style:none;
+}
+#pagination-mongo a{
+border:solid 1px #DDDDDD;
+margin-right:5px;
+}
+#pagination-mongo .previous-off,
+#pagination-mongo .next-off {
+color:#666666;
+display:block;
+float:left;
+font-weight:bold;
+padding:3px 4px;
+}
+#pagination-mongo .next a,
+#pagination-mongo .previous a {
+font-weight:bold;
+border:solid 1px #FFFFFF;
+} 
+#pagination-mongo .active{
+color:#ff0084;
+font-weight:bold;
+display:block;
+float:left;
+padding:4px 6px;
+}
+#pagination-mongo a:link,
+#pagination-mongo a:visited {
+color:#0063e3;
+display:block;
+float:left;
+padding:3px 6px;
+text-decoration:none;
+}
+#pagination-mongo a:hover{
+border:solid 1px #666666;
+}
+
+
+.center_align{
+
+     position:absolute;
+     width:400px;
+     height:50px;
+     top:100%;
+     left:50%;
+     margin:-100px 0 0 -150px;
+    
+}
